@@ -1,0 +1,106 @@
+ header {
+  background-color: lightblue;
+}
+
+#test {
+  background-image: url("images/basilisk-018.jpg"); /* The image used */
+}
+
+
+#test h1,p,h2 {
+	color : white;
+}
+
+ h1,p,h2 {
+	color : black;
+}
+
+.caption {
+position: absolute;
+left: 0;
+top: 40%;
+width: 100%;
+text-align: center;
+color: #000;
+}
+.parallax {
+/* image utilisée*/
+background-image: url("images/chevrolet.jpg");
+
+/* la hauteur */
+height: 500px;
+
+/* creé l'effet de scrolling */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.parallax1 {
+/* The image used */
+background-image: url("images/dino2.jpg");
+
+/* Set a specific height */
+height: 500px;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.parallax2 {
+/* The image used */
+background-image: url("images/jaguar.jpg");
+
+/* Set a specific height */
+height: 500px;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.parallax3 {
+/* The image used */
+background-image: url("images/Honda-NSX.jpg");
+
+/* Set a specific height */
+height: 500px;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.parallax4 {
+/* The image used */
+background-image: url("images/mustang.jpg");
+
+/* Set a specific height */
+height: 700px;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.parallax5 {
+/* The image used */
+background-image: url("images/mustang2.jpg");
+
+/* Set a specific height */
+height: 800px;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#test {
+color :red ;
+}
