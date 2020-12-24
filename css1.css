@@ -6,6 +6,13 @@
   background-image: url("images/basilisk-018.jpg"); /* The image used */
 }
 
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid red;
+  padding: 10px;
+}
+
 
 #test h1,p,h2 {
 	color : white;
