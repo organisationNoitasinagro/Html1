@@ -337,3 +337,54 @@ color :red ;
      left: 5px;
      transform: rotate(45deg);
 }
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+
+div.a {
+  width: 150px;
+  height: 80px;
+  background-color: yellow;
+  -ms-transform: rotate(20deg); /* IE 9 */
+  transform: rotate(20deg);
+}
+
+div.b {
+  width: 150px;
+  height: 80px;
+  background-color: yellow;
+  -ms-transform: skewY(20deg); /* IE 9 */
+  transform: skewY(20deg);
+}
+
+div.c {
+  width: 150px;
+  height: 80px;
+  background-color: yellow;
+  -ms-transform: scaleY(1.5); /* IE 9 */
+  transform: scaleY(1.5);
+}
