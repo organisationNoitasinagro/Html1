@@ -388,3 +388,7 @@ div.c {
   -ms-transform: scaleY(1.5); /* IE 9 */
   transform: scaleY(1.5);
 }
+
+body{
+     background-color: #A6A0A0;
+}
