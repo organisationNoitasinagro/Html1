@@ -1,7 +1,3 @@
- header {
-  background-color: lightblue;
-}
-
 #test {
   background-image: url("images/basilisk-018.jpg"); /* The image used */
 }
@@ -30,12 +26,17 @@ width: 100%;
 text-align: center;
 color: #000;
 }
+
+.parallax p {
+  font-size: 40px;
+  color: white;
+}
 .parallax {
 /* image utilisée*/
 background-image: url("images/chevrolet.jpg");
 
 /* la hauteur */
-height: 500px;
+height : 10em;
 
 /* creé l'effet de scrolling */
 background-attachment: fixed;
@@ -45,10 +46,10 @@ background-size: cover;
 }
 .parallax1 {
 /* The image used */
-background-image: url("images/dino2.jpg");
+background-image: url("images/pexels-jessie-crettenden-3714898.jpg");
 
 /* Set a specific height */
-height: 500px;
+height : 30em;
 
 /* Create the parallax scrolling effect */
 background-attachment: fixed;
@@ -58,10 +59,10 @@ background-size: cover;
 }
 .parallax2 {
 /* The image used */
-background-image: url("images/jaguar.jpg");
+background-image: url("images/pexels-jean-van-der-meulen-1660623.jpg");
 
 /* Set a specific height */
-height: 500px;
+height : 30em;
 
 /* Create the parallax scrolling effect */
 background-attachment: fixed;
@@ -74,7 +75,7 @@ background-size: cover;
 background-image: url("images/Honda-NSX.jpg");
 
 /* Set a specific height */
-height: 500px;
+height : 10em;
 
 /* Create the parallax scrolling effect */
 background-attachment: fixed;
@@ -87,8 +88,7 @@ background-size: cover;
 background-image: url("images/mustang.jpg");
 
 /* Set a specific height */
-height: 700px;
-
+height : 10em;
 /* Create the parallax scrolling effect */
 background-attachment: fixed;
 background-position: center;
@@ -100,14 +100,30 @@ background-size: cover;
 background-image: url("images/mustang2.jpg");
 
 /* Set a specific height */
-height: 800px;
+height : 10em;
 
+text-align: center;
 /* Create the parallax scrolling effect */
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }
+.parallax4444 {
+/* The image used */
+background-image: url("images/pexels-flavio-ardito-2467408.jpg");
+
+/* Set a specific height */
+height : 100%;
+
+text-align: center;
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
 #test {
 color :red ;
 }
@@ -212,7 +228,7 @@ color :red ;
      position: relative;
      display: flex;
      flex-direction: column;
-     border-width: 0 2px 0 2px;
+     /*border-width: 0 2px 0 2px;*/
      border-style: solid;
      border-color: #394a6d;
 }
@@ -229,12 +245,12 @@ color :red ;
      line-height: 60px;
      background: #ffffff;
      cursor: pointer;
-     border-width: 2px 0 2px 0;
+     border-width: 2px 2px 2px 2px;
      border-style: solid;
      border-color: #394a6d;
 }
  .custom-options {
-     position: absolute;
+     position: relative;
      display: block;
      top: 100%;
      left: 0;
@@ -252,6 +268,7 @@ color :red ;
      opacity: 1;
      visibility: visible;
      pointer-events: all;
+     border-width: 0 2px 2px 2px;
 }
  .custom-option {
      position: relative;
@@ -305,38 +322,6 @@ color :red ;
      transform: rotate(45deg);
 }
 
-
-.arrow {
-     position: relative;
-     height: 15px;
-     width: 15px;
-}
- .arrow::before, .arrow::after {
-     content: "";
-     position: absolute;
-     bottom: 0px;
-     width: 0.15rem;
-     height: 100%;
-     transition: all 0.5s;
-}
- .arrow::before {
-     left: -5px;
-     transform: rotate(45deg);
-     background-color: #394a6d;
-}
- .arrow::after {
-     left: 5px;
-     transform: rotate(-45deg);
-     background-color: #394a6d;
-}
- .open .arrow::before {
-     left: -5px;
-     transform: rotate(-45deg);
-}
- .open .arrow::after {
-     left: 5px;
-     transform: rotate(45deg);
-}
 
 
 ul {
@@ -392,3 +377,218 @@ div.c {
 body{
      background-color: #A6A0A0;
 }
+
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (min-width: 700px) {
+    .row {
+        flex-direction: row;
+    }
+	  .side {
+	  -ms-flex: 30%; /* IE10 */
+	  flex: 30%;
+	  background-color: #f1f1f1;
+	  padding: 20px;
+	  width: 30%;
+    background-image: url("images/19333449.jpg");
+    background-repeat: repeat;
+    background-size: 200px 200px;
+	}
+
+	/* Main column */
+	.main {   
+	  -ms-flex: 70%; /* IE10 */
+	  flex: 70%;
+	  background-color: white;
+	  padding: 20px;
+	  width: 70%;
+	}
+
+	/* Fake image, just for this example */
+	.fakeimg {
+	  background-color: #aaa;
+	  width: 100%;
+	  padding: 20px;
+	}
+
+	/* Footer */
+	.footer {
+	  padding: 20px;
+	  text-align: center;
+	  background: #ddd;
+	  width: 100%;				
+	}
+	/* Header/logo Title */
+	.header {
+	  padding: 80px;
+	  text-align: center;
+	  width: 100%;				
+		/* image utilisée*/
+		background-image: url("images/pexels-octoptimist-5596452.jpg");
+
+		/* la hauteur */
+		height: 500px;
+
+		/* creé l'effet de scrolling */
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+			}
+
+	 .navbar {
+	  overflow: hidden;
+	  background-color: #333;
+	  position: sticky;
+	  position: -webkit-sticky;
+	  top: 0;
+	  width: 100%;
+	}
+}
+
+.side h2,h5,p,h3{
+color: white;
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .navbar {
+	  overflow: hidden;
+	  background-color: #333;
+	  position: sticky;
+	  position: -webkit-sticky;
+	  top: 0;
+	}
+  .row {   
+	    flex-direction: column;
+	  }
+
+	  .side {
+	  -ms-flex: 100%; /* IE10 */
+	  flex: 100%;
+	  background-color: #f1f1f1;
+	  padding: 20px;
+	  width: 100%;
+	}
+
+	/* Main column */
+	.main {   
+	  -ms-flex: 100%; /* IE10 */
+	  flex: 100%;
+	  background-color: white;
+	  padding: 20px;
+	  width: 100%;
+	}
+
+	/* Fake image, just for this example */
+	.fakeimg {
+	  background-color: #aaa;
+	  width: 100%;
+	  padding: 20px;
+	}
+
+	/* Footer */
+	.footer {
+	  padding: 20px;
+	  text-align: center;
+	  background: #ddd;
+	  width: 100%;				
+	}
+	/* Header/logo Title */
+	.header {
+	  padding: 80px;
+	  text-align: center;
+	  width: 100%;				
+		/* image utilisée*/
+		background-image: url("images/pexels-octoptimist-5596452.jpg");
+
+		/* la hauteur */
+		height: 500px;
+
+		/* creé l'effet de scrolling */
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+			}
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+  color: white;
+}
+
+.header p {
+  font-size: 40px;
+  color: white;
+}
+
+
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: grid;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex ;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/*
+
+
+
+
+LES PROPS AVEC WIDTH SONT A METTRE DS DES MEDIAS QUERIES
+
+
+
+
+
+*/
+
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+
+
