@@ -393,7 +393,6 @@ body{
     background-image: url("images/19333449.jpg");
     background-repeat: repeat;
     background-size: 200px 200px;
-
 	}
 
 	/* Main column */
@@ -445,6 +444,10 @@ body{
 	  top: 0;
 	  width: 100%;
 	}
+}
+
+.side h2,h5,p,h3{
+color: white;
 }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
