@@ -136,7 +136,7 @@ color :red ;
  /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
 
  width: 50%;
-    
+
  position: relative;
  background: #ba89b6;
  color: #fff;
@@ -396,7 +396,7 @@ body{
 	}
 
 	/* Main column */
-	.main {   
+	.main {
 	  -ms-flex: 70%; /* IE10 */
 	  flex: 70%;
 	  background-color: white;
@@ -415,14 +415,15 @@ body{
 	.footer {
 	  padding: 20px;
 	  text-align: center;
-	  background: #ddd;
-	  width: 100%;				
+    background-image: url(" images/WhatsApp Image 2021-01-02 at 19.26.03.jpeg ");
+  
+	  width: 100%;
 	}
 	/* Header/logo Title */
 	.header {
 	  padding: 80px;
 	  text-align: center;
-	  width: 100%;				
+	  width: 100%;
 		/* image utilisée*/
 		background-image: url("images/pexels-octoptimist-5596452.jpg");
 
@@ -459,7 +460,7 @@ color: white;
 	  position: -webkit-sticky;
 	  top: 0;
 	}
-  .row {   
+  .row {
 	    flex-direction: column;
 	  }
 
@@ -472,7 +473,7 @@ color: white;
 	}
 
 	/* Main column */
-	.main {   
+	.main {
 	  -ms-flex: 100%; /* IE10 */
 	  flex: 100%;
 	  background-color: white;
@@ -499,7 +500,7 @@ color: white;
 	.header {
 	  padding: 80px;
 	  text-align: center;
-	  width: 100%;				
+	  width: 100%;
 		/* image utilisée*/
 		background-image: url("images/pexels-octoptimist-5596452.jpg");
 
@@ -568,11 +569,15 @@ body {
 }
 
 /* Column container */
-.row {  
+.row {
   display: -ms-flexbox; /* IE10 */
   display: flex ;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
+}
+
+.marginleft {
+  margin-left:20px;
 }
 
 .right{
@@ -602,5 +607,3 @@ LES PROPS AVEC WIDTH SONT A METTRE DS DES MEDIAS QUERIES
 
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
-
-
