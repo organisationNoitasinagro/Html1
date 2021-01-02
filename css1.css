@@ -9,7 +9,7 @@
   padding: 10px;
 }
 
-
+ 
 #test h1,p,h2 {
 	color : white;
 }
@@ -407,7 +407,7 @@ body{
 	/* Fake image, just for this example */
 	.fakeimg {
 	  background-color: #aaa;
-	  width: 100%;
+	  width: 30%;
 	  padding: 20px;
 	}
 
@@ -493,7 +493,8 @@ color: white;
 	  padding: 20px;
 	  text-align: center;
 	  background: #ddd;
-	  width: 100%;
+	  width: 100%;				
+    
 	}
 	/* Header/logo Title */
 	.header {
@@ -577,6 +578,18 @@ body {
 
 .marginleft {
   margin-left:20px;
+}
+
+.right{
+  float: right;
+}
+
+.left{
+    float: left;
+}
+
+.clearfix {
+  overflow: auto;
 }
 /*
 
