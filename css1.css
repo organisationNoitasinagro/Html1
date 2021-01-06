@@ -414,10 +414,21 @@ body{
 	/* Footer */
 	.footer {
 	  padding: 20px;
-	  text-align: center;
-    background-image: url(" images/WhatsApp Image 2021-01-02 at 19.26.03.jpeg ");
-  
 	  width: 100%;
+        padding: 80px;
+        text-align: center;
+        width: 100%;
+        /* image utilisée*/
+        background-image: url(" images/WhatsApp Image 2021-01-02 at 19.26.03.jpeg ");
+
+        /* la hauteur */
+        height:300px ;
+
+        /* creé l'effet de scrolling */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
 	}
 	/* Header/logo Title */
 	.header {
@@ -488,14 +499,6 @@ color: white;
 	  padding: 20px;
 	}
 
-	/* Footer */
-	.footer {
-	  padding: 20px;
-	  text-align: center;
-	  background: #ddd;
-	  width: 100%;				
-    
-	}
 	/* Header/logo Title */
 	.header {
 	  padding: 80px;
